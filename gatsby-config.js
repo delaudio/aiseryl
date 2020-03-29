@@ -5,9 +5,10 @@ require(`dotenv`).config({
 module.exports = {
   siteMetadata: {
     title: `Kate's Blog`,
-    siteUrl: `https://aiseryl.netlify.com`,
-    description: `Blazing fast modern site generator for React`
     siteTitle: `Kate's Blog`,
+    siteTitleAlt: `Kate's Blog`,
+    siteUrl: `https://aiseryl.netlify.com`,
+    
   },
   plugins: [
     {
