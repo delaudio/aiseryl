@@ -15,3 +15,4 @@ fields:
   label: Tags
 pages:
 - content/posts/kates-first-post.md
+- content/posts/mdx-extension-hello.mdx
