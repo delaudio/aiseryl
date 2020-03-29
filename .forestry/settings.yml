@@ -18,9 +18,8 @@ sections:
   match: "**/*"
   new_doc_ext: md
 - type: document
-  path: config.yml
+  path: ".git/config.yml"
   label: Configuration
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
