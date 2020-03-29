@@ -9,11 +9,10 @@ sections:
   label: Pages
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: document
-  path: content/posts
+  path: posts
   label: Posts
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
