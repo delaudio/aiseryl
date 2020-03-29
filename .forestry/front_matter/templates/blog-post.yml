@@ -4,10 +4,12 @@ hide_body: false
 fields:
 - type: textarea
   name: title
-  label: title
+  label: Title
 - type: datetime
   name: date
-  label: date
-- type: text
-  name: slug
-  label: slug
+  label: Date
+  default: now
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
