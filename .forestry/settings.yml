@@ -1,7 +1,7 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
+admin_path: ''
 webhook_url: 
 sections:
 - type: directory
@@ -18,9 +18,8 @@ sections:
   match: "**/*"
   new_doc_ext: md
 - type: document
-  path: config.yml
+  path: gatsby-config.js
   label: Configuration
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
