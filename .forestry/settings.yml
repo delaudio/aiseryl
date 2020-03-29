@@ -10,7 +10,9 @@ sections:
   create: documents
   match: "*"
   exclude: index.md
-  new_doc_ext: md
+  new_doc_ext: mdx
+  templates:
+  - blog-post
 - type: directory
   path: content/pages
   label: Pages
