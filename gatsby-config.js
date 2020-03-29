@@ -4,9 +4,9 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    title: `Kate's Blog`,
-    siteTitle: `Kate's Blog`,
-    siteTitleAlt: `Kate's Blog`,
+    title: `Autoblog`,
+    siteTitle: `Autoblog`,
+    siteTitleAlt: `Autobotzero`,
     siteUrl: `https://aiseryl.netlify.com`,
     
   },
