@@ -18,7 +18,7 @@ sections:
   match: "**/*"
   new_doc_ext: md
 - type: document
-  path: ".git/config.yml"
+  path: gatsby-config.js
   label: Configuration
 upload_dir: uploads
 public_path: "/uploads"
