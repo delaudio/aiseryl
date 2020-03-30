@@ -14,4 +14,5 @@ fields:
   default: []
   label: Tags
 pages:
+- content/posts/book-notes-positive-psychology-by-hans-henrik-knoop.mdx
 - content/posts/mdx-extension-hello.mdx
