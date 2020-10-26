@@ -5,6 +5,7 @@ fields:
 - type: textarea
   name: title
   label: Title
+  description: The title of the page
 - type: datetime
   name: date
   label: Date
