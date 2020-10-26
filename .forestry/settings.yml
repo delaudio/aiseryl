@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Blog
 - type: directory
   path: content/posts
   label: Posts
@@ -13,6 +15,8 @@ sections:
   new_doc_ext: mdx
   templates:
   - blog-post
+- type: heading
+  label: Pages
 - type: directory
   path: content/pages
   label: Pages
